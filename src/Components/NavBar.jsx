@@ -61,7 +61,7 @@ const NavBar = ({ user, setsearchTerm, searchTerm }) => {
         </Flex>
 
         {/* crerate Btn */}
-        {usuario === "otonielreyes0@gmail.com" || usuario === "mireyapedroza@gmail.com"  ? 
+        {usuario === "otonielreyes0@gmail.com"   ? 
           <div> 
              <Link to={"/create"}>
           <Flex
